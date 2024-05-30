@@ -1,0 +1,39 @@
+.main-footer {
+  padding: 60px 0;
+  background-color: $primary-color-20;
+  font-size: 18px;
+  color: $text-color-100;
+}
+
+.footer-widget {
+  h6 {
+    margin-bottom: 20px;
+    font-size: 0.7em;
+    //color: $text-color-05;
+  }
+
+  p {
+    span {
+      font-size: 0.7em;
+      display: block;
+      color: inherit;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: block;
+      padding: 2px 0;
+
+      a {
+        display: table;
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
