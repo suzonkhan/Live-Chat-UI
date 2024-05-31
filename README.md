@@ -14,9 +14,14 @@ The Floating Contact Form HTML is a sleek and modern contact form designed to en
 - Cross-Browser Compatible: Works smoothly across all major browsers.
 
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
 ## Demo
 
-Check out the live demo here.
+Check out the live [demo here](https://suzonkhan.github.io/Floating-Contact-Form/).
 
 
 ## Installation
