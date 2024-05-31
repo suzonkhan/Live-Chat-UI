@@ -16,7 +16,7 @@ The Floating Contact Form HTML is a sleek and modern contact form designed to en
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://suzonkhan.github.io/Floating-Contact-Form/demo-resources/Floating-Contact-Form.png)
 
 
 ## Demo
