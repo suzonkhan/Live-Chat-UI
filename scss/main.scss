@@ -1,12 +1,6 @@
 @import "variables";
-//@import "header";
-//@import "footer";
-//@import "swiper-slide";
-//@import "news-events";
-//@import "inner-page-banner";
-//@import "image-gallery";
-//@import "committee";
-@import "flooting-contact";
+@import "floating-contact";
+@import "floating-chat";
 
 body {
   background-color: $bg-color;
@@ -15,6 +9,11 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .separator {

@@ -3,47 +3,143 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>Floating Contact Form HTML</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Live Chat UI</title>
+    <!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<div class="floating-contact-wrapper">
-    <div class="floating-contact-inner">
-        <div class="floating-contact-header">
-            <h3>Send me message</h3>
+<div class="floating-chat-wrapper">
+    <div class="floating-chat-inner">
+        <div class="floating-chat-header">
+            <h3>Live Chat</h3>
             <button class="close-floating-contact"><span></span></button>
         </div>
-        <form action="">
-            <div class="input-field-wrapper">
-                <label for="contact-person-name">Name</label>
-                <input type="text" id="contact-person-name" class="form-control">
-            </div>
-            <div class="input-field-wrapper">
-                <label for="contact-person-email">Email</label>
-                <input type="text" id="contact-person-email" class="form-control">
-            </div>
-            <div class="input-field-wrapper">
-                <label for="contact-person-phone">Phone</label>
-                <input type="text" id="contact-person-phone" class="form-control">
-            </div>
-            <div class="input-field-wrapper">
-                <label for="contact-person-message">Message</label>
-                <textarea cols="4" rows="3" id="contact-person-message" class="form-control"></textarea>
-            </div>
-            <div class="input-field-wrapper">
-                <button class="btn btn-brand w-100">Send</button>
-            </div>
-            <div class="separator"><span>or</span></div>
-            <div class="input-field-wrapper">
-                <a class="btn btn-whatsapp-chat w-100" target="_blank" href="https://wa.me/8801814758170">Chat on WhatsApp</a>
-            </div>
-        </form>
+        <div class="floating-chat-body">
+
+            <div class="chat-conversation guest-conversation">
+                <div class="user-thumb">
+                    <img src="images/chat-avatar.png" alt="avatar"/>
+                </div> <!--user-thumb-->
+                <div class="user-message">
+                    <div class="message-header">
+                        <p>Mia Thomas</p>
+                        <time> 6:50 PM</time>
+                    </div> <!--message-header-->
+                    <div class="message-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div> <!--message-body-->
+                </div> <!--user-message-->
+            </div> <!--chat-conversation-->
+
+            <div class="chat-conversation agent-conversation">
+                <div class="user-thumb">
+                    <img src="images/chat-agent.png" alt="avatar"/>
+                </div> <!--user-thumb-->
+                <div class="user-message">
+                    <div class="message-header">
+                        <p>Mia Thomas</p>
+                        <time> 6:50 PM</time>
+                    </div> <!--message-header-->
+                    <div class="message-body">
+                        <p>
+
+                            Cum sociis natoque penatibus et magnis dis parturient
+                            montes, nascetur ridiculus mus. Donec quam felis,
+                            ultricies necl
+                        </p>
+                    </div> <!--message-body-->
+                </div> <!--user-message-->
+            </div> <!--chat-conversation-->
+
+            <div class="chat-conversation agent-conversation">
+                <div class="user-thumb">
+                    <img src="images/chat-avatar.png" alt="avatar"/>
+                </div> <!--user-thumb-->
+                <div class="user-message">
+                    <div class="message-header">
+                        <p>Mia Thomas</p>
+                        <time> 6:50 PM</time>
+                    </div> <!--message-header-->
+                    <div class="message-body">
+                        <p>
+                            Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient
+                            montes, nascetur ridiculus mus.
+                        </p>
+                    </div> <!--message-body-->
+                </div> <!--user-message-->
+            </div> <!--chat-conversation-->
+
+            <div class="chat-conversation guest-conversation">
+                <div class="user-thumb">
+                    <img src="images/chat-avatar.png" alt="avatar"/>
+                </div> <!--user-thumb-->
+                <div class="user-message">
+                    <div class="message-header">
+                        <p>Mia Thomas</p>
+                        <time> 6:50 PM</time>
+                    </div> <!--message-header-->
+                    <div class="message-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient
+                            montes, nascetur ridiculus mus. Donec quam felis,
+                            ultricies necl
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient
+                            montes, nascetur ridiculus mus. Donec quam felis,
+                            ultricies necl
+                        </p>
+                    </div> <!--message-body-->
+                </div> <!--user-message-->
+            </div> <!--chat-conversation-->
+
+            <div class="chat-conversation guest-conversation">
+                <div class="user-thumb">
+                    <img src="images/chat-avatar.png" alt="avatar"/>
+                </div> <!--user-thumb-->
+                <div class="user-message">
+                    <div class="message-header">
+                        <p>Mia Thomas</p>
+                        <time> 6:50 PM</time>
+                    </div> <!--message-header-->
+                    <div class="message-body">
+                        <p>
+                            Donec quam felis, ultricies necl Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        </p>
+
+                    </div> <!--message-body-->
+                </div> <!--user-message-->
+            </div> <!--chat-conversation-->
+
+
+        </div> <!--floating-chat-body-->
+        <div class="floating-chat-footer">
+            <button type="submit"><img src="images/send.svg" alt=""></button>
+            <textarea name="" rows="3"></textarea>
+            <div class="chat-editor-helper">
+                <ul>
+                    <li><img src="images/sentiment-satisfied.svg" alt=""></li>
+                    <li><img src="images/format-bold.svg" alt=""></li>
+                    <li><img src="images/format-italic.svg" alt=""></li>
+                    <li><img src="images/format-underlined.svg" alt=""></li>
+                    <li><img src="images/format-code.svg" alt=""></li>
+                    <li><img src="images/attach-file.svg" alt=""></li>
+                </ul>
+            </div><!--chat-editor-helper-->
+        </div> <!--floating-chat-footer-->
     </div>
-    <div class="floating-contact-button">
+    <div class="floating-chat-button">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 12C12.5523 12 13 11.5523 13 11C13 10.4477 12.5523 10 12 10C11.4477 10 11 10.4477 11 11C11 11.5523 11.4477 12 12 12Z"
                   fill="black"/>
